@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    /* border: 2px solid red; */
+    height: 1100px;
+    width: 90%;
+    background-color: aqua;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 50px;
+    color: red;
+}
+
+.box-line-one {
+    display: flex;
+}
+
+.box-one {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-image: linear-gradient(red, white, blue);
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.box-two {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-image: linear-gradient( to top, red, white, blue);
+    margin-top: 30px;
+    margin-left: 30px;
+    color: wheat;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.box-three {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, red, white, blue);
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgb(62, 201, 27);
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.box-four {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-image: linear-gradient(to top left, red, white, blue);
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgba(32, 53, 172, 0.781);
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.box-five {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-image: linear-gradient(to top right, red, white, blue);
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgba(32, 53, 172, 0.781);
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.box-line-two {
+    display: flex;
+    text-align: center;
+}
+
+.box-six {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-image: linear-gradient(to left top, red, white, blue);
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgba(32, 53, 172, 0.781);
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.box-seven {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-image: linear-gradient(to right top, red, white, blue);
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgba(32, 53, 172, 0.781);
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.box-eight {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom right, red, white, blue);
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgba(32, 53, 172, 0.781);
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.box-nine {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-image: linear-gradient(to left top, red, white, blue);
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgba(32, 53, 172, 0.781);
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.box-eleven {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+    background-image: repeating-linear-gradient(red 10%, white 15%, blue 20%, green 25%);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.box-line-three {
+    height: 200px;
+    width: 50%;
+    margin: 30px auto;
+    background-image: linear-gradient(rgba(12, 12, 250, .5), rgba(248, 10, 10, .7));
+}
+
+.box-line-four {
+    height: 200px;
+    width: 50%;
+    margin: 30px auto;
+    background-image: linear-gradient(red, green);
+    opacity: .6;
+}
